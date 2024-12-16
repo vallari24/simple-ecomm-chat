@@ -10,6 +10,7 @@ import {
 import { Product } from "../models/Product";
 import LatestProducts from "../components/LatestProducts";
 import Banner from "../components/Banner";
+import ChatWindow from "../components/ChatWindow"; 
 
 const Home: FC = () => {
   const dispatch = useAppDispatch();
@@ -47,6 +48,7 @@ const Home: FC = () => {
       <TrendingProducts />
       <Banner />
       <LatestProducts />
+      <ChatWindow /> 
       <br />
     </div>
   );
